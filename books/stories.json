@@ -1,0 +1,66 @@
+{
+  "The Martian Chronicles": {
+    "Tales": [
+      {
+        "Rocket Summer": {
+          "Summary": "The story begins with the arrival of the first human mission to Mars, marked by the fiery launch of a rocket.",
+          "Image": "rocket_summer.png"
+        }
+      },
+      {
+        "Ylla": {
+          "Summary": "Ylla, a Martian woman, has telepathic dreams of Earth and becomes fascinated with human culture, leading to unexpected consequences.",
+          "Image": "ylla.png"
+        }
+      },
+      {
+        "The Settlers": {
+          "Summary": "A group of Earth settlers arrives on Mars, seeking a new life away from the troubles of Earth, but they encounter hostility from the native Martians.",
+          "Image": "the_settlers.png"
+        }
+      },
+      {
+        "Night Meeting": {
+          "Summary": "Two individuals from different time periods, a human explorer and a Martian, meet at twilight, blurring the lines between reality and dreams.",
+          "Image": "night_meeting.png"
+        }
+      },
+      {
+        "The Fire Balloons": {
+          "Summary": "A group of Catholic priests travels to Mars to convert the native Martians, but they discover that the Martians are not as they expected.",
+          "Image": "the_fire_balloons.png"
+        }
+      },
+      {
+        "Interim": {
+          "Summary": "The story explores the fate of Mars after most of the Martians have been wiped out by a deadly disease brought by humans.",
+          "Image": "interim.png"
+        }
+      },
+      {
+        "The Settlers Leave": {
+          "Summary": "As Earth's culture and conflicts continue to encroach on Mars, some settlers decide to return to Earth.",
+          "Image": "the_settlers_leave.png"
+        }
+      },
+      {
+        "Rocket Summer Second Expedition": {
+          "Summary": "A second expedition to Mars begins with another fiery rocket launch, continuing the human colonization effort.",
+          "Image": "rocket_summer_second_expedition.png"
+        }
+      },
+      {
+        "Night Meeting Second Expedition": {
+          "Summary": "In the second expedition to Mars, a similar twilight meeting occurs, further blurring the lines between dreams and reality.",
+          "Image": "night_meeting_second_expedition.png"
+        }
+      },
+      {
+        "Usher II": {
+          "Summary": "On Mars, a man builds a replica of Edgar Allan Poe's House of Usher and uses it to take revenge on censorship and cultural suppression on Earth.",
+          "Image": "usher_ii.png"
+        }
+      }
+    ]
+  }
+}
