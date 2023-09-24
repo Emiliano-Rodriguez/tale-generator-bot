@@ -11,7 +11,7 @@ import random
 # Init tale selector class from stories.json 
 class TalesSelector:
     def __init__(self):
-        self.json_file_path = "./books/stories.json"
+        self.json_file_path = "/home/argulus/bots/tale_generator_bot/books/stories.json"
         self.load_data()
 
     def load_data(self):
@@ -22,19 +22,40 @@ class TalesSelector:
             print(f"JSON file '{self.json_file_path}' not found.")
             self.data = {}
 
-    # Selects random tale from stories.json 
+    def save_data(self):
+        with open(self.json_file_path, 'w') as file:
+            json.dump(self.data, file, indent=2)
+
     def select_random_tale(self):
-        book_title = list(self.data.keys())[0]
-        tales = self.data[book_title]['Tales']
-        random_tale = random.choice(tales)
-        tale_name = list(random_tale.keys())[0]
-        summary = random_tale[tale_name]['Summary']
-        image = random_tale[tale_name].get('Image', '')  # Get the image filename (if available)
-        return f"Book: {book_title} \nTale: {tale_name}\n{summary}", image
+        book_title, book_data = random.choice(list(self.data.items()))
+        max_counter = book_data.get('MaxCount')
+        tales = book_data.get('Tales', [])
+        valid_tales = [tale for tale in tales if tale.get(list(tale.keys())[0], {}).get('Counter', 0) < max_counter]
+
+        if not valid_tales:
+          book_data['MaxCount'] += 1
+          self.save_data()              
+          return "None" , "None"
+        
+        random_tale_info = random.choice(valid_tales)
+        tale_name, tale_details = list(random_tale_info.items())[0]
+        
+        tale_details['Counter'] += 1
+        
+        # Save the updated data (including the incremented counter) to the JSON file
+        self.save_data()
+        
+        summary = tale_details.get('Summary')
+        image = tale_details.get('Image')
+        
+        return f"Book: {book_title}\nTale: {tale_name}\n{summary}", image
+
 
 # Example usage:
 if __name__ == "__main__":
     tales_selector = TalesSelector()
     summary_txt, image_filename = tales_selector.select_random_tale()
+    while (summary_txt == "None"):
+        summary_txt, image_filename = tales_selector.select_random_tale()
     print(summary_txt)
     print("Image Filename:", image_filename)

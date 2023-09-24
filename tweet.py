@@ -1,4 +1,5 @@
 #imports
+import datetime
 from Authenticator import TwitterAuthenticator
 from TaleGenerator import TalesSelector
 
@@ -12,6 +13,8 @@ from TaleGenerator import TalesSelector
 # Generate random tales and extract the summary text and image
 tales_selector = TalesSelector()
 summary_txt, image_file = tales_selector.select_random_tale()
+while (summary_txt == "None"):
+   summary_txt, image_filename = tales_selector.select_random_tale()
 
 # Twitter authenticator V1/2
 auth = TwitterAuthenticator()
@@ -22,8 +25,10 @@ client = auth.create_tweepy_client()
 text = summary_txt
 
 # Image to be Tweeted
-media_id = api.media_upload(filename=f"img/{image_file}").media_id_string
+media_id = api.media_upload(filename=f"/home/argulus/bots/tale_generator_bot/img/{image_file}").media_id_string
 
 # Send Tweet with Text and media ID
 client.create_tweet(text=text, media_ids=[media_id])
-print("Tweeted!")
+
+
+
