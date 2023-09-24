@@ -1,64 +1,225 @@
 {
   "The Martian Chronicles": {
+    "MaxCount": 1,
     "Tales": [
       {
         "Rocket Summer": {
+          "Counter": 0,
           "Summary": "The story begins with the arrival of the first human mission to Mars, marked by the fiery launch of a rocket.",
           "Image": "rocket_summer.png"
         }
       },
       {
         "Ylla": {
+          "Counter": 0,
           "Summary": "Ylla, a Martian woman, has telepathic dreams of Earth and becomes fascinated with human culture, leading to unexpected consequences.",
           "Image": "ylla.png"
         }
       },
       {
         "The Settlers": {
+          "Counter": 0,
           "Summary": "A group of Earth settlers arrives on Mars, seeking a new life away from the troubles of Earth, but they encounter hostility from the native Martians.",
           "Image": "the_settlers.png"
         }
       },
       {
         "Night Meeting": {
+          "Counter": 0,
           "Summary": "Two individuals from different time periods, a human explorer and a Martian, meet at twilight, blurring the lines between reality and dreams.",
           "Image": "night_meeting.png"
         }
       },
       {
         "The Fire Balloons": {
+          "Counter": 0,
           "Summary": "A group of Catholic priests travels to Mars to convert the native Martians, but they discover that the Martians are not as they expected.",
           "Image": "the_fire_balloons.png"
         }
       },
       {
         "Interim": {
+          "Counter": 0,
           "Summary": "The story explores the fate of Mars after most of the Martians have been wiped out by a deadly disease brought by humans.",
           "Image": "interim.png"
         }
       },
       {
         "The Settlers Leave": {
+          "Counter": 0,
           "Summary": "As Earth's culture and conflicts continue to encroach on Mars, some settlers decide to return to Earth.",
           "Image": "the_settlers_leave.png"
         }
       },
       {
         "Rocket Summer Second Expedition": {
+          "Counter": 0,
           "Summary": "A second expedition to Mars begins with another fiery rocket launch, continuing the human colonization effort.",
           "Image": "rocket_summer_second_expedition.png"
         }
       },
       {
         "Night Meeting Second Expedition": {
+          "Counter": 0,
           "Summary": "In the second expedition to Mars, a similar twilight meeting occurs, further blurring the lines between dreams and reality.",
           "Image": "night_meeting_second_expedition.png"
         }
       },
       {
         "Usher II": {
+          "Counter": 0,
           "Summary": "On Mars, a man builds a replica of Edgar Allan Poe's House of Usher and uses it to take revenge on censorship and cultural suppression on Earth.",
           "Image": "usher_ii.png"
+        }
+      }
+    ]
+  },
+  "Labyrinths: Selected Stories & Other Writings": {
+    "MaxCount": 1,
+    "Tales": [
+      {
+        "The Garden_of_Forking_Paths": {
+          "Counter": 0,
+          "Summary": "A classic Borges story exploring the concept of multiple realities and the idea of a labyrinthine novel.",
+          "Image": "the_garden_of_forking_paths.png"
+        }
+      },
+      {
+        "Tl\u00f6n,_Uqbar,_Orbis_Tertius": {
+          "Counter": 0,
+          "Summary": "A tale that delves into the creation of a fictional world and the blurring of reality and fiction.",
+          "Image": "tlon_uqbar_orbis_tertius.png"
+        }
+      },
+      {
+        "The_Library_of_Babel": {
+          "Counter": 0,
+          "Summary": "An exploration of a vast, infinite library that contains every possible book, and the futility of searching for meaning in it.",
+          "Image": "the_library_of_babel.png"
+        }
+      },
+      {
+        "Funes_the_Memorious": {
+          "Counter": 0,
+          "Summary": "The story of a man who possesses perfect memory, which ultimately becomes a curse.",
+          "Image": "funes_the_memorious.png"
+        }
+      },
+      {
+        "The_Aleph": {
+          "Counter": 0,
+          "Summary": "A mystical and philosophical story about a point in space that contains all other points.",
+          "Image": "the_aleph.png"
+        }
+      },
+      {
+        "The_Circular_Ruins": {
+          "Counter": 0,
+          "Summary": "A dreamlike narrative about a man who dreams a son into existence.",
+          "Image": "the_circular_ruins.png"
+        }
+      },
+      {
+        "The_Secret_Miracle": {
+          "Counter": 0,
+          "Summary": "The story of a writer facing execution who experiences a miraculous pause in time.",
+          "Image": "the_secret_miracle.png"
+        }
+      },
+      {
+        "Pierre_Menard,_Author_of_the_Quixote": {
+          "Counter": 0,
+          "Summary": "An examination of the relationship between a writer and his work, as Borges explores the idea of rewriting Cervantes' 'Don Quixote.'",
+          "Image": "pierre_menard_author_of_the_quixote.png"
+        }
+      },
+      {
+        "The_South": {
+          "Counter": 0,
+          "Summary": "A story about a duel and the quest for honor, blending reality and myth.",
+          "Image": "the_south.png"
+        }
+      },
+      {
+        "The_Immortal": {
+          "Counter": 0,
+          "Summary": "A tale about a man who discovers the secret to immortality but at a great cost.",
+          "Image": "the_immortal.png"
+        }
+      }
+    ]
+  },
+  "Flannery O'Connor's Collections": {
+    "MaxCount": 1,
+    "Tales": [
+      {
+        "A Good Man Is Hard to Find": {
+          "Counter": 0,
+          "Summary": "A family's road trip takes a dark turn when they encounter an escaped convict known as The Misfit.",
+          "Image": "a_good_man_is_hard_to_find.png"
+        }
+      },
+      {
+        "The Life You Save May Be Your Own": {
+          "Counter": 0,
+          "Summary": "A drifter named Tom Shiftlet comes to work on a widow's farm, leading to unexpected consequences.",
+          "Image": "the_life_you_save_may_be_your_own.png"
+        }
+      },
+      {
+        "A View of the Woods": {
+          "Counter": 0,
+          "Summary": "A wealthy old man clashes with his daughter-in-law over the sale of his land, with tragic consequences.",
+          "Image": "a_view_of_the_woods.png"
+        }
+      },
+      {
+        "The Lame Shall Enter First": {
+          "Counter": 0,
+          "Summary": "A widowed father becomes obsessed with helping a troubled young boy, neglecting his own son in the process.",
+          "Image": "the_lame_shall_enter_first.png"
+        }
+      },
+      {
+        "The Artificial": {
+          "Counter": 0,
+          "Summary": "An elderly man takes his grandson on a trip to the city, where they confront their own prejudices.",
+          "Image": "the_artificial.png"
+        }
+      },
+      {
+        "The River": {
+          "Counter": 0,
+          "Summary": "A neglected young boy is taken in by a traveling preacher, leading to a fateful baptism.",
+          "Image": "the_river.png"
+        }
+      },
+      {
+        "Revelation": {
+          "Counter": 0,
+          "Summary": "A wealthy woman named Mrs. Turpin has a revelation about her place in the world after a shocking encounter in a doctor's waiting room.",
+          "Image": "revelation.png"
+        }
+      },
+      {
+        "The Enduring Chill": {
+          "Counter": 0,
+          "Summary": "A writer returns home to his family's farm when he believes he is dying, leading to a clash of egos and ideals.",
+          "Image": "the_enduring_chill.png"
+        }
+      },
+      {
+        "The Comforts of Home": {
+          "Counter": 0,
+          "Summary": "A troubled young man named Thomas faces the consequences of his actions when he is taken in by a seemingly hospitable woman.",
+          "Image": "the_comforts_of_home.png"
+        }
+      },
+      {
+        "Everything That Rises Must Converge": {
+          "Counter": 0,
+          "Summary": "A mother and son take a bus ride, and their differing worldviews come to a head, leading to a shocking climax.",
+          "Image": "everything_that_rises_must_converge.png"
         }
       }
     ]
